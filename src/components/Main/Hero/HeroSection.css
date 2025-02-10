@@ -1,0 +1,21 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hero-title h1 {
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+.hero-h2 h2 {
+  justify-self: center;
+  max-width: 75%;
+  font-size: 3rem;
+  font-weight: 350;
+}
+
+.h2-colored {
+  color: blue;
+}
