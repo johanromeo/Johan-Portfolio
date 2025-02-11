@@ -1,7 +1,25 @@
+.tech-stack-section {
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  /* gap: 1rem; */
+}
+
+.tech-stack-section h2 {
+  /* align-self: center; */
+}
+
+.tech-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  justify-content: center;
+  gap: 2rem 1rem;
+}
+
 .tech-img {
-  height: 48px;
-  width: 48px;
-  border: 2px solid var(--chili-red);
-  border-radius: 50%;
-  padding: 25px;
+  height: 70px;
+  width: 70px;
+  border-radius: 10px;
 }

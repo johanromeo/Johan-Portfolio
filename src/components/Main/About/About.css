@@ -23,4 +23,5 @@
   flex-wrap: wrap;
   justify-self: flex-start;
   align-self: flex-start;
+  margin-bottom: 15vh;
 }
