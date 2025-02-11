@@ -1,0 +1,26 @@
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-section-container h2 {
+  font-size: 3rem;
+  font-weight: 350;
+}
+
+.about-section-container p {
+  font-size: 1.2rem;
+}
+
+.about-text {
+  text-align: left;
+}
+
+.about-buttons {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-self: flex-start;
+  align-self: flex-start;
+}

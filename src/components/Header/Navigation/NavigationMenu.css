@@ -5,3 +5,10 @@
   gap: 1rem;
   margin-right: 1rem;
 }
+
+.nav-container a {
+  text-decoration: none;
+}
+.nav-container a:visited {
+  color: inherit;
+}
