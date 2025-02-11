@@ -1,0 +1,7 @@
+.tech-img {
+  height: 48px;
+  width: 48px;
+  border: 2px solid var(--chili-red);
+  border-radius: 50%;
+  padding: 25px;
+}
