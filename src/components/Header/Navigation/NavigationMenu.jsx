@@ -1,14 +1,17 @@
-import "./NavigationMenu.css"
+import ScrollSpy from "react-scrollspy-navigation";
+import "./NavigationMenu.css";
 
 const NavigationMenu = () => {
   return (
-    <nav className="nav-container">
-      <a href="#Home">Home</a>
-      <a href="#About">About</a>
-      <a href="#Projects">Projects</a>
-      <a href="#Contact">Contact</a>
-    </nav>
-  )
-}
+    <ScrollSpy activeClass="nav-active" offsetTop={100}>
+      <nav className="nav-container">
+        <a href="#target-0">Home</a>
+        <a href="#target-1">About</a>
+        <a href="#target-2">Projects</a>
+        <a href="#target-3">Contact</a>
+      </nav>
+    </ScrollSpy>
+  );
+};
 
 export default NavigationMenu;

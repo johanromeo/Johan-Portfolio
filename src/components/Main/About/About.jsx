@@ -6,7 +6,9 @@ import TechStack from "./TechStack/TechStack";
 const About = () => {
   return (
     <section className="about-section-container">
-      <h2>About me</h2>
+      <h2 id="target-1" className="nav-active">
+        About me
+      </h2>
       <div className="about-text">
         <p>
           I’m passionate about continous growth and learning - exploring new

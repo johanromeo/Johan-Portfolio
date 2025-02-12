@@ -4,7 +4,9 @@ const HeroSection = () => {
   return (
     <section className="hero-container">
       <div className="hero-title">
-        <h1>Hi, I'm Johan.</h1>
+        <h1 id="target-0" className="nav-active">
+          Hi, I'm Johan.
+        </h1>
       </div>
       <div className="hero-h2">
         <h2>

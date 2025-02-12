@@ -40,7 +40,9 @@ const ContactForm = () => {
 
   return (
     <div className="contact-form-container">
-      <h2>Contact me</h2>
+      <h2 id="target-3" className="nav-active">
+        Contact me
+      </h2>
       <section>
         <form className="form-container" /* ref={form} */>
           <input
