@@ -8,13 +8,13 @@ import ContactForm from "./components/Main/Contact/ContactForm";
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <main className="app-wrapper">
       <Header />
       <HeroSection />
       <About />
       <Projects />
       <ContactForm />
-    </div>
+    </main>
   );
 }
 
