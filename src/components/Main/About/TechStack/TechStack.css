@@ -17,7 +17,7 @@
   grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   justify-content: center;
   gap: 2rem 1rem;
-  border: 1px solid var(--cerulean);
+  border: 2px solid var(--cerulean);
   padding: 20px;
   margin-bottom: 10vh;
   border-radius: 40px;
