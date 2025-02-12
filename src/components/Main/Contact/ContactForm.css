@@ -2,6 +2,7 @@
   margin-inline: auto;
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 .contact-form-container h2 {
