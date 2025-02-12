@@ -15,9 +15,10 @@ const About = () => {
         </p>
         <p>
           Right now, I have a goal of becoming a Fullstack Developer, so
-          currently I’m pursuing that by attending a React.js course. I also
-          want to dive a little bit deeper regarding Quality Assurance when
-          writing code, so right now I'm attending a course for that too!
+          currently I’m pursuing that by attending a React.js course at
+          Folkuniversitet. I also want to dive a little bit deeper regarding
+          Quality Assurance when writing code, so right now I'm attending a
+          course for that too!
         </p>
         <p>
           Looking ahead, I’m on the hunt for a company where I can continue to

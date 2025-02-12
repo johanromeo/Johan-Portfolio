@@ -1,13 +1,13 @@
 .project-card-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 1rem;
-  /* width: 50%; */
+  gap: 2.5rem;
+  width: auto;
   margin-inline: auto;
-  margin-bottom: 10vh;
+  margin-bottom: 10rem;
   align-items: stretch;
   padding: 20px;
-  border: 2px solid var(--cerulean);
+  border: 1px solid var(--cerulean);
   border-radius: 40px;
 }
 

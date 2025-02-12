@@ -74,7 +74,7 @@ const ContactForm = () => {
       </section>
 
       <div className="form-button-container">
-        <Button text={"Message me"} />
+        <Button text={"Send"} />
       </div>
     </div>
   );
