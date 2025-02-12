@@ -3,7 +3,7 @@ import "./TechStack.css";
 const TechStack = () => {
   return (
     <section className="tech-stack-section">
-      <h2>Tech stack</h2>
+      <h2>My tech stack</h2>
       <div className="tech-items">
         <img
           className="tech-img"
@@ -18,6 +18,11 @@ const TechStack = () => {
         <img
           className="tech-img"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+        />
+
+        <img
+          className="tech-img"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
         />
 
         <img

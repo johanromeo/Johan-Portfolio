@@ -8,7 +8,8 @@
 }
 
 .tech-stack-section h2 {
-  /* align-self: center; */
+  font-size: 2rem;
+  margin-bottom: 10vh;
 }
 
 .tech-items {
@@ -16,6 +17,10 @@
   grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
   justify-content: center;
   gap: 2rem 1rem;
+  border: 1px solid var(--cerulean);
+  padding: 20px;
+  margin-bottom: 10vh;
+  border-radius: 40px;
 }
 
 .tech-img {
