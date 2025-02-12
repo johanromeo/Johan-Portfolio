@@ -48,3 +48,9 @@
   justify-content: start;
   margin-bottom: 2rem;
 }
+
+@media (max-width: 768px) {
+  .contact-form-container {
+    width: 90%;
+  }
+}
