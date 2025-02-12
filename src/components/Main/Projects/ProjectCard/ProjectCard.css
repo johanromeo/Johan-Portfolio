@@ -1,0 +1,38 @@
+.project-card-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 10vh;
+  align-items: stretch;
+  padding: 20px;
+  border: 2px solid var(--cerulean);
+  border-radius: 40px;
+}
+
+.project-card-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.project-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-card-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .project-card-container {
+    grid-template-columns: 1fr;
+  }
+}

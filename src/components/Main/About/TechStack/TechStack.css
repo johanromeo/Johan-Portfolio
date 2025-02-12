@@ -1,10 +1,8 @@
 .tech-stack-section {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  width: 80%;
-  /* gap: 1rem; */
+  margin-bottom: 20vh;
 }
 
 .tech-stack-section h2 {
