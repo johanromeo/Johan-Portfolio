@@ -3,6 +3,8 @@ import "./About.css";
 import Button from "../../common/Button/Button";
 import TechStack from "./TechStack/TechStack";
 
+import resume from "../../../assets/Johan_Romeo_Resume_Diploma_Grades_Employer_Certificate.pdf";
+
 const About = () => {
   return (
     <section className="about-section-container">
@@ -35,11 +37,7 @@ const About = () => {
         <a href="#target-3">
           <Button text={"Contact me"} />
         </a>
-        <a
-          href="Johan_Romeo_Resume_Diploma_Grades_Employer_Certificate.pdf"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={resume} target="_blank" rel="noreferrer">
           <Button text={"My resume"} />
         </a>
       </div>
