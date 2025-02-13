@@ -2,11 +2,6 @@ import "./DisplayProjects.css";
 
 import ProjectCard from "../ProjectCard/ProjectCard";
 
-// Array of projects
-// img
-// title
-// overview
-// description
 const projects = [
   {
     id: 1,
@@ -34,13 +29,14 @@ const projects = [
   },
 ];
 
-// Map projects to components
 const projectComponents = projects.map((project) => {
   return <ProjectCard key={project.id} project={project} />;
 });
-//handle onClick function to navigate to each GitHub repo. Passed as a prop
+
 const DisplayProjects = () => {
-  return <div>{projectComponents}</div>;
+  return (
+    <div className="project-components-container">{projectComponents}</div>
+  );
 };
 
 export default DisplayProjects;

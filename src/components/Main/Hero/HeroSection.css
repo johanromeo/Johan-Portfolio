@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-bottom: 300px;
+  margin-bottom: 20rem;
 }
 
 .hero-title h1 {
@@ -12,10 +12,8 @@
 
 .hero-h2 h2 {
   justify-self: center;
-  /* min-width: 65%; */
   font-size: 3rem;
   font-weight: 350;
-  /* margin-bottom: 10rem; */
 }
 
 .h2-colored {

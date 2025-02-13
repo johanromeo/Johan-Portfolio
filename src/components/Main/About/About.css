@@ -1,3 +1,6 @@
+#target-1 {
+  /* margin-bottom: 5rem; */
+}
 .about-section-container {
   display: flex;
   flex-direction: column;
@@ -7,6 +10,7 @@
 .about-section-container h2 {
   font-size: 3rem;
   font-weight: 350;
+  margin-bottom: 5rem;
 }
 
 .about-section-container p {
@@ -23,5 +27,12 @@
   flex-wrap: wrap;
   justify-self: flex-start;
   align-self: flex-start;
-  /* margin-bottom: 15vh; */
+  margin-bottom: 3.5rem;
+}
+
+.tech-stack-grid {
+  justify-items: row;
+  align-items: center;
+  width: 90%;
+  margin-bottom: 10rem;
 }

@@ -36,7 +36,9 @@ const About = () => {
         <Button text={"Contact me"} />
         <Button text={"My resume"} />
       </div>
-      <TechStack />
+      <div className="tech-stack-grid">
+        <TechStack />
+      </div>
     </section>
   );
 };
