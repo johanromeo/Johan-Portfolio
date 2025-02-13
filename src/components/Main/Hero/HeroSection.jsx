@@ -17,7 +17,9 @@ const HeroSection = () => {
       <div className="social-media-container">
         <nav className="social-media-links">
           <div className="social-media-links--item">
-            <img src="/public/icons/linkedin.svg" alt="" />
+            {/* https://devicon.dev/ */}
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+
             <a
               href="https://www.linkedin.com/in/johanromeo/"
               target="_blank"
@@ -27,7 +29,9 @@ const HeroSection = () => {
             </a>
           </div>
           <div className="social-media-links--item">
-            <img src="/public/icons/github.svg" alt="" />
+            {/* https://devicon.dev/ */}
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+
             <a
               href="https://github.com/johanromeo"
               target="_blank"
