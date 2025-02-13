@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 20vh;
+  /* margin-bottom: 20vh; */
 }
 
 .tech-stack-section h2 {
