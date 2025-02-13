@@ -11,9 +11,8 @@ const About = () => {
       </h2>
       <div className="about-text">
         <p>
-          I’m passionate about continous growth and learning - exploring new
-          ideas through side projects on my spare time is what’s keeping me
-          stimulated.
+          I’m passionate about continuous growth and learning - exploring new
+          ideas through side projects on my spare time is keeping me stimulated.
         </p>
         <p>
           Right now, I have a goal of becoming a Fullstack Developer, so
@@ -33,8 +32,16 @@ const About = () => {
         </p>
       </div>
       <div className="about-buttons">
-        <Button text={"Contact me"} />
-        <Button text={"My resume"} />
+        <a href="#target-3">
+          <Button text={"Contact me"} />
+        </a>
+        <a
+          href="Johan_Romeo_Resume_Diploma_Grades_Employer_Certificate.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button text={"My resume"} />
+        </a>
       </div>
       <div className="tech-stack-grid">
         <TechStack />
