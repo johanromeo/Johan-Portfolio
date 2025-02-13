@@ -14,3 +14,36 @@
 .nav-container a.nav-active {
   color: var(--chili-red);
 }
+
+.hamburger {
+  display: none;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+
+  .nav-container {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    margin-right: 0;
+  }
+
+  .nav-container.open {
+    display: flex;
+  }
+}
