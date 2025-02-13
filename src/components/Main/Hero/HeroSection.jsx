@@ -41,7 +41,7 @@ const HeroSection = () => {
             </a>
           </div>
           <div className="social-media-links--item">
-            <img src="/public/icons/mail.svg" alt="" />
+            <img src="/mail.svg" alt="" />
             <a href="mailto:johan_romeo123@live.se">johan_romeo123@live.se</a>
           </div>
         </nav>
