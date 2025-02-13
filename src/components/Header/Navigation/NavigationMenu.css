@@ -8,7 +8,10 @@
 
 .nav-container a {
   text-decoration: none;
+  color: black;
 }
-.nav-container a:visited {
-  color: inherit;
+
+.nav-container a.nav-active {
+  text-decoration: underline;
+  color: var(--chili-red);
 }
