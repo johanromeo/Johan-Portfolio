@@ -3,7 +3,7 @@ import "./NavigationMenu.css";
 
 const NavigationMenu = () => {
   return (
-    <ScrollSpy activeClass="nav-active" offsetTop={100}>
+    <ScrollSpy activeClass="nav-active" offsetTop={150}>
       <nav className="nav-container">
         <a href="#target-0">Home</a>
         <a href="#target-1">About</a>

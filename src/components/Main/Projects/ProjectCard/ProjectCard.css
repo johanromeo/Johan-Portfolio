@@ -7,7 +7,7 @@
   margin-bottom: 10rem;
   align-items: stretch;
   padding: 20px;
-  border: 1px solid var(--cerulean);
+  /* border: 1px solid var(--cerulean); */
   border-radius: 40px;
 }
 
