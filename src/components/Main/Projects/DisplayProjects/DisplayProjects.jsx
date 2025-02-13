@@ -1,11 +1,12 @@
 import "./DisplayProjects.css";
-
+import meal from "../../../../assets/meal.svg";
+import school from "../../../../assets/school.svg";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const projects = [
   {
     id: 1,
-    imgUrl: "/plan-a-meal-project.svg",
+    imgUrl: meal,
     title: "Plan a Meal",
     overview: "Knowing what to cook can sometimes be hard.",
     description:
@@ -16,7 +17,7 @@ const projects = [
   },
   {
     id: 2,
-    imgUrl: "/school-project.svg",
+    imgUrl: school,
     title: "School Projects",
     overview:
       "A list of all exercises and projects during my time at Campus Mölndal",

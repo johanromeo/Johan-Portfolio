@@ -1,4 +1,5 @@
 import "./HeroSection.css";
+import mail from "../../../assets/mail.svg";
 
 const HeroSection = () => {
   return (
@@ -41,7 +42,7 @@ const HeroSection = () => {
             </a>
           </div>
           <div className="social-media-links--item">
-            <img src="/mail.svg" alt="" />
+            <img src={mail} alt="" />
             <a href="mailto:johan_romeo123@live.se">johan_romeo123@live.se</a>
           </div>
         </nav>
