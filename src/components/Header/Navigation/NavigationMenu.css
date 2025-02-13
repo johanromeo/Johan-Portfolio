@@ -12,6 +12,6 @@
 }
 
 .nav-container a.nav-active {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: var(--chili-red);
 }

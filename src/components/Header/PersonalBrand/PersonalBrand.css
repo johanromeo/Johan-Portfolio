@@ -1,3 +1,9 @@
 .brand-container {
   margin-left: 1rem;
 }
+
+.initials {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: var(--chili-red);
+}

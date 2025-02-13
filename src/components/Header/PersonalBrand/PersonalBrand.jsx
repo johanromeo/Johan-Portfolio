@@ -4,7 +4,12 @@ const PersonalBrand = () => {
   return (
     <div className="brand-container">
       {/* Place logo here */}
-      <p>Johan Romeo</p>
+      <p>
+        {"< "}
+        <span className="initials">J</span>ohan{" "}
+        <span className="initials">R</span>omeo
+        {" />"}
+      </p>
     </div>
   );
 };
