@@ -4,10 +4,8 @@
   gap: 2.5rem;
   width: auto;
   margin-inline: auto;
-  /* margin-bottom: 10rem; */
   align-items: stretch;
   padding: 20px;
-  /* border: 1px solid var(--cerulean); */
   border-radius: 40px;
 }
 
