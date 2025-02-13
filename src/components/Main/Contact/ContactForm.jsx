@@ -2,41 +2,43 @@ import "./ContactForm.css";
 
 import Button from "../../common/Button/Button";
 
-import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useState, useRef } from "react";
 
 const ContactForm = () => {
   const [senderName, setSenderName] = useState("");
   const [senderEmail, setSenderEmail] = useState("");
   const [senderMessage, setSenderMessage] = useState("");
+  const [messageSent, setMessageSent] = useState(null);
 
-  // const serviceId = import.meta.env.VITE_MAIL_SERVICE_ID;
-  // const templateId = import.meta.env.VITE_MAIL_TEMPLATE_ID;
-  // const publicKey = import.meta.env.VITE_MAIL_PUBLIC_KEY;
+  const serviceId = import.meta.env.VITE_MAIL_SERVICE_ID;
+  const templateId = import.meta.env.VITE_MAIL_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_MAIL_PUBLIC_KEY;
 
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   //TODO: Notify user if mail was sent or not
-  //   //TODO: Input fields cannot be left blank
-  //   emailjs
-  //     .sendForm(serviceId, templateId, form.current, {
-  //       publicKey: publicKey,
-  //     })
-  //     .then(
-  //       () => {
-  //         console.log("SUCCESS!");
-  //         setSenderName("");
-  //         setSenderEmail("");
-  //         setSenderMessage("");
-  //         form.current.reset();
-  //       },
-  //       (error) => {
-  //         console.log("ERROR", error.text);
-  //       }
-  //     );
-  // };
+    emailjs
+      .sendForm(serviceId, templateId, form.current, {
+        publicKey: publicKey,
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          setSenderName("");
+          setSenderEmail("");
+          setSenderMessage("");
+          form.current.reset();
+          setMessageSent(true);
+        },
+        (error) => {
+          console.log("ERROR", error.text);
+          setMessageSent(false);
+        }
+      );
+  };
 
   return (
     <div className="contact-form-container">
@@ -44,7 +46,7 @@ const ContactForm = () => {
         Contact me
       </h2>
       <section>
-        <form className="form-container" /* ref={form} */>
+        <form className="form-container" ref={form}>
           <input
             className="input-field"
             required
@@ -69,15 +71,19 @@ const ContactForm = () => {
             placeholder="Your message to Johan"
             onChange={(event) => setSenderMessage(event.target.value)}
           />
-          {/* <button type="submit" onClick={sendEmail}>
-            Send
-          </button> */}
+          <div className="form-button-container">
+            <Button text={"Send"} handleClick={sendEmail} />
+          </div>
+          <div>
+            {messageSent !== null &&
+              (messageSent ? (
+                <p>Thank you for your message. I'll get back to you ASAP!</p>
+              ) : (
+                <p>Something went wrong! Email me instead.</p>
+              ))}
+          </div>
         </form>
       </section>
-
-      <div className="form-button-container">
-        <Button text={"Send"} />
-      </div>
     </div>
   );
 };
