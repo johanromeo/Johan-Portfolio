@@ -1,0 +1,20 @@
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--chili-red);
+  bottom: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+
+.author {
+  margin-right: 1rem;
+}
