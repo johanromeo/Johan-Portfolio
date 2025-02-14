@@ -1,6 +1,7 @@
 import "./DisplayProjects.css";
 import meal from "../../../../assets/meal.svg";
 import school from "../../../../assets/school.svg";
+import portfolio from "../../../../assets/portfolio.svg";
 import ProjectCard from "../ProjectCard/ProjectCard";
 
 const projects = [
@@ -24,9 +25,19 @@ const projects = [
     description:
       "Here lives a chronological list of all the school exercises, projects and my thesis, going from implementing a text based RPG to implementing a secured cloud based backend for a webshop.",
     techUsed:
-      "Java, Spring Boot, MySQL, MongoDB, Python, AWS, Azure, Raspberry Pi 5",
+      "Java, Spring Boot, MySQL, MongoDB, Python, AWS, Azure, Raspberry Pi 5.",
     githubUrl:
       "https://github.com/johanromeo/Campus-Molndal-School-Assignments",
+  },
+  {
+    id: 3,
+    imgUrl: portfolio,
+    title: "Johan Portfolio",
+    overview: "My minimalistic website portfolio.",
+    description:
+      "Developing a website portfolio has been on my mind for a while. This portfolio was ment to be very simple, yet express personality by adding a subtle color scheme. As you can see, I still need to learn alot, especially in CSS.",
+    techUsed: "React.js, CSS.",
+    githubUrl: "https://github.com/johanromeo/Johan-Portfolio",
   },
 ];
 
