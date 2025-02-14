@@ -36,7 +36,7 @@ const projects = [
     overview: "My minimalistic website portfolio.",
     description:
       "Developing a website portfolio has been on my mind for a while. This portfolio was ment to be very simple, yet express personality by adding a subtle color scheme. As you can see, I still need to learn alot, especially in CSS.",
-    techUsed: "React.js, CSS.",
+    techUsed: "HTML, CSS, JavaScript, React.js",
     githubUrl: "https://github.com/johanromeo/Johan-Portfolio",
   },
 ];

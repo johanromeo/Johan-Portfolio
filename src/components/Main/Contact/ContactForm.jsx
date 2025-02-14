@@ -6,14 +6,14 @@ import emailjs from "@emailjs/browser";
 import { useState, useRef } from "react";
 
 const ContactForm = () => {
+  const serviceId = import.meta.env.VITE_MAIL_SERVICE_ID;
+  const templateId = import.meta.env.VITE_MAIL_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_MAIL_PUBLIC_KEY;
+
   const [senderName, setSenderName] = useState("");
   const [senderEmail, setSenderEmail] = useState("");
   const [senderMessage, setSenderMessage] = useState("");
   const [messageSent, setMessageSent] = useState(null);
-
-  const serviceId = import.meta.env.VITE_MAIL_SERVICE_ID;
-  const templateId = import.meta.env.VITE_MAIL_TEMPLATE_ID;
-  const publicKey = import.meta.env.VITE_MAIL_PUBLIC_KEY;
 
   const form = useRef();
 
