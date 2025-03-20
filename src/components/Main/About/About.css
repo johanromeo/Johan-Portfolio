@@ -16,6 +16,7 @@
 
 .about-text {
   text-align: left;
+  margin-inline: 1rem;
 }
 
 .about-buttons {
@@ -25,6 +26,7 @@
   justify-self: flex-start;
   align-self: flex-start;
   margin-bottom: 3.5rem;
+  margin-inline: 1rem;
 }
 
 .tech-stack-grid {
